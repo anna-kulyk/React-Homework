@@ -1,0 +1,12 @@
+p {
+    font-size: 24px;
+    font-weight: bold;
+    
+    &:nth-child(odd) {
+        color: rgb(0, 67, 144);
+    }
+
+    &:nth-child(even) {
+        color: rgb(17, 84, 0);
+    }
+}
