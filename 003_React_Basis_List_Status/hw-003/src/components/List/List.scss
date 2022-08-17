@@ -1,0 +1,11 @@
+ul {
+    list-style-type: square;
+    list-style-position: inside;
+    border: 1px solid rgb(0, 97, 97);
+    border-radius: 10px;
+    padding: 10px;
+
+    li {
+        color: rgb(0, 97, 97);
+    }
+}

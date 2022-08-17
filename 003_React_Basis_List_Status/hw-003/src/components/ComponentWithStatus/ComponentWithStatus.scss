@@ -1,0 +1,18 @@
+.componentWithStatus {
+    border: 1px solid rgb(0, 56, 129);
+    border-radius: 10px;
+    padding: 10px;
+
+    p {
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    button {
+       width: 40px;
+       height: 40px;
+       font-size: 24px;
+       margin: 5px;
+    }
+}
