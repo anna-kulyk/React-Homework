@@ -20,7 +20,7 @@ class FormComponent extends Component {
                 element.classList.remove(`${styles['styled-form__input--valid']}`);
                 element.classList.add(`${styles['styled-form__input--invalid']}`);
             }
-            else {
+            else if (element.type !== "submit") {
                 element.classList.remove(`${styles['styled-form__input--invalid']}`);
                 element.classList.add(`${styles['styled-form__input--valid']}`);
             }
