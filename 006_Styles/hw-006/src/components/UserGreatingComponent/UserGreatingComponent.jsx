@@ -6,7 +6,7 @@ class UserGreatingComponent extends Component {
         return (
             <div>
                 <p className={styles['greating']}>Hello, {this.props.userName}!</p>
-                <button onClick={this.props.hendleLogOut} className={styles['button']}>Log Out</button>
+                <button onClick={this.props.handleLogOut} className={styles['button']}>Log Out</button>
             </div>
         );
     }

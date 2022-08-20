@@ -9,14 +9,14 @@ class App extends React.Component {
     user: ''
   }
 
-  hendleLogIn = (userName) => {
+  handleLogIn = (userName) => {
     this.setState({
       isLoggedIn: true,
       user: userName
     })
   }
 
-  hendleLogOut = () => {
+  handleLogOut = () => {
     this.setState({
       isLoggedIn: false,
       user: ''
@@ -26,8 +26,8 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        {!this.state.isLoggedIn && <StyledFormComponent handleLogIn={this.hendleLogIn} />}
-        {this.state.isLoggedIn && <UserGreatingComponent userName={this.state.user} hendleLogOut={this.hendleLogOut} />}
+        {!this.state.isLoggedIn && <StyledFormComponent handleLogIn={this.handleLogIn} />}
+        {this.state.isLoggedIn && <UserGreatingComponent userName={this.state.user} handleLogOut={this.handleLogOut} />}
       </div>
     );
   }
