@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  padding: 10px 10px;
+  font-size: 18px;
+  background-color: rgb(181, 219, 230);
+  border-radius: 10px;
+  margin: 0 20px;
+}
+
+.button:hover {
+  background-color: rgb(147, 185, 196);
+}
