@@ -1,0 +1,26 @@
+$primary-color: rgb(26, 85, 114);
+
+.form {
+    width: 250px;
+
+    &__label {
+        display: flex;
+        justify-content: space-between;
+        margin: 10px 0;
+        color: $primary-color;
+        font-weight: bold;
+    }
+
+    &__input {
+        &--valid {
+            border: 1px solid $primary-color;
+        }
+
+        &--invalid {
+            border: 1px solid red;
+        }
+    }
+    &__btn {
+        margin: 5px 0 0;
+    }
+}
