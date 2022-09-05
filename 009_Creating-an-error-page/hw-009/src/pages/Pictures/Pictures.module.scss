@@ -1,0 +1,12 @@
+.pictures {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image {
+    width: 20vw;
+    height: auto;
+    margin: 20px;
+}
