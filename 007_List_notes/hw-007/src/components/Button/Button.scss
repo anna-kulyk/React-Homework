@@ -1,0 +1,23 @@
+@import '../TodoApp/variables';
+
+.button {
+    background-color: transparent;
+    border: none;
+    margin: 0 0 0 10px;
+
+    &:hover {
+        scale: 1.1;
+    }
+}
+
+.checkmark-task-btn {
+    outline: 2px solid $primary-color;
+    min-width: 16px;
+    min-height: 16px;
+    margin-right: 10px;
+    display: block;
+
+    &:hover {
+        scale: 1;
+    }
+}

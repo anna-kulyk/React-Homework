@@ -1,0 +1,7 @@
+$primary-color: rgb(11, 68, 121);
+$secondary-color: white;
+
+:export {
+    primaryColor: $primary-color;
+    secondaryColor: $secondary-color;
+}

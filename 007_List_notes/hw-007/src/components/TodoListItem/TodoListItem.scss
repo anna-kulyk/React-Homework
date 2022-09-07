@@ -1,0 +1,16 @@
+.todo-list-item {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px 0 0;
+}
+
+.list-item-task {
+    width: 100%;
+
+    &--done {
+        text-decoration: line-through;
+    }
+}

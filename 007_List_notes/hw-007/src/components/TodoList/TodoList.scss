@@ -1,0 +1,8 @@
+@import '../TodoApp/variables';
+
+.todo-list {
+    list-style: none;
+    width: 100%;
+    padding-bottom: 10px;
+    color: $primary-color;
+}

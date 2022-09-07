@@ -1,0 +1,31 @@
+@import '../TodoApp/variables';
+
+.todo-task-form {
+    box-sizing: border-box;
+    width: 100%;
+    background-color: $primary-color;
+    padding: 10px 10px;
+}
+
+.new-task-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.new-task-label {
+    color: $secondary-color;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.new-task-input {
+    display: inline-block;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    padding: 1px;
+    color: $primary-color;
+}
